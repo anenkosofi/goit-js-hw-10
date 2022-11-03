@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -17,4 +19,45 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.country-list {
+  list-style: none;
+}
+
+.country-list li {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.country-list img {
+  margin-right: 10px;
+}
+
+.country-list p {
+  font-size: 22px;
+}
+
+.country-info img {
+  margin-right: 10px;
+}
+
+.country-info span {
+  font-size: 36px;
+}
+
+.country-info p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  font-size: 26px;
 }
